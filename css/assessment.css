@@ -39,5 +39,17 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  div{
+    padding: 50px;
+    margin:5px;
+    text-align: center;
+  }
+
+
+  div:nth-child(even) {
+    border: 1px black solid;
+  }
+
+}
 
 }
