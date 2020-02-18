@@ -1,0 +1,43 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  background-image: url('../images/back-ground.jpeg');
+}
+
+img{
+  display: block;
+  width: 120px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+div{
+   padding: 30px;
+   margin:5px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 850px){
+
+  section{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+}
